@@ -2,20 +2,17 @@
 <nav class="navbar navbar-dark bg-dark">
   <span class="navbar-brand mb-0 h1 .bg-dark">Navbar</span>
 
-  <div class="collapse navbar-collapse" id="navbarText">
-    <ul class="navbar-nav mr-auto justify-content-end" >
+  
+    <ul class="navbar-nav  justify-content-end" >
       <li class="nav-item">
-        <a class="nav-link" routerlink="admin">Admin</a>
+        <a class="nav-link" href="admin">Admin</a>
       </li>
     </ul>
-  </div>
-</nav>
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
   
-</div>
+</nav>
+
+<app-home-content> </app-home-content>
+
 
 
 <router-outlet></router-outlet>
