@@ -1,3 +1,14 @@
-<p>
-  admin works!
-</p>
+<div class="body"> 
+<form  class="login-box" (submit)=onSubmit()>
+  <h1>Login</h1>
+  <div class="textbox">
+    <i class="fas fa-user"></i>
+    <input type="text" placeholder="Username"  [(ngModel)]="username" name="username">
+  </div>
+<div class="textbox">
+    <i class="fas fa-lock"></i>
+    <input type="password" placeholder="Password"  [(ngModel)]="password" name="password" >
+  </div>
+<input type="submit" class="btn" value="Sign in">
+</form>
+</div>

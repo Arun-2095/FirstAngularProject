@@ -1,18 +1,32 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<nav class="navbar navbar-dark bg-dark">
-  <span class="navbar-brand mb-0 h1 .bg-dark">Navbar</span>
 
-  
-    <ul class="navbar-nav  justify-content-end" >
-      <li class="nav-item">
-        <a class="nav-link" href="admin">Admin</a>
-      </li>
-    </ul>
-  
-</nav>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <base href="/">
+</head>
+<body >
+    <nav class="navbar navbar-dark bg-dark">
+        <span class="navbar-brand mb-0 h1 .bg-dark">Navbar</span>
+      
+        
+          <ul class="navbar-nav  justify-content-end" >
+            <li class="nav-item">
+              <a class="nav-link" routerLink="admin">Admin</a>
+            </li>
+          </ul>
+        
+      </nav>
+      
+      
+      
+      
+      
+      <router-outlet></router-outlet>
+</body>
+</html>
 
-<app-home-content> </app-home-content>
-
-
-
-<router-outlet></router-outlet>
